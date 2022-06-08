@@ -180,7 +180,7 @@ export default function Navbar() {
                                 </>
                             )}
                         </Popover>
-                        <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} className="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" />
+                        <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} placeholderText="Select Date" closeOnScroll={true} dateFormat="dd/MM/yyyy" maxDate={new Date()} className="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" />
                     </Popover.Group>
                 </div>
             </div>
