@@ -1,2 +1,2 @@
 # hutera
-Deployed on netlify @ https://hutera.netlify.app/
+Deployed on netlify at https://hutera.netlify.app/
