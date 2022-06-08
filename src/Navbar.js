@@ -63,7 +63,7 @@ export default function Navbar() {
                     {/* Brand */}
                     <div className="flex justify-start">
                         <a href="/">
-                            <span className="sr-only">Workflow</span>
+                            <span className="sr-only">Hutera</span>
                             <FontAwesomeIcon icon={faSnowflake} className="h-8 w-auto sm:h-10 text-indigo-600" />
                         </a>
                     </div>
